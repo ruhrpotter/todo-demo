@@ -1,0 +1,88 @@
+.app {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.input-container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-container input:focus {
+  outline: none;
+  border-color: #0066cc;
+}
+
+.input-container button {
+  padding: 12px 24px;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-container button:hover {
+  background: #0052a3;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-list li span {
+  cursor: pointer;
+  flex: 1;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-list li button {
+  padding: 4px 12px;
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.todo-list li button:hover {
+  background: #cc0000;
+}
+
+.count {
+  text-align: center;
+  color: #666;
+  margin-top: 16px;
+  font-size: 14px;
+}
