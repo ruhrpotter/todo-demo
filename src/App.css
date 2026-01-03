@@ -44,6 +44,33 @@ h1 {
   background: #0052a3;
 }
 
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+.filter-buttons button {
+  padding: 8px 16px;
+  background: #f5f5f5;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.filter-buttons button:hover {
+  background: #e5e5e5;
+}
+
+.filter-buttons button.active {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+}
+
 .todo-list {
   list-style: none;
 }
